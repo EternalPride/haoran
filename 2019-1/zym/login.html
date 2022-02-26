@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>AI青春——登录</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<style type="text/css">
+			*{
+				border: 0;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+			body
+			{
+				background: #F9F9F9;
+			}
+			.logo{
+				width: 70px;
+				height: 70px;
+				margin: 20px auto;
+				/*border: 1px solid saddlebrown;*/
+				border-radius: 50%;
+				background: #CCCCCC;
+			}
+			img
+			{
+				width: 80px;
+				height: 50px;
+				margin: 12px -5px;
+			}
+			.wz{
+				width: 400px;
+				height: 50px;
+				text-align: center;
+				margin: 0 auto;
+				font-weight: 100;
+				color: #333333;
+				font-size: 20px;
+			}
+			.dlk{
+				width: 265px;
+				height: 237px;
+				border: 1px solid #D8DEE2;
+				margin: 0 auto;
+				background: #FFFFFF;
+				border-radius: 7px;
+				padding: 0 20px;
+				font-size: 12px;
+				font-weight: 600;
+			}
+			input{
+				width: 265px;
+				height: 35px;
+				background: #FAFFBD;
+				border-radius: 3px;
+			}
+			form li:nth-child(1)
+			{
+				margin: 20px 0 10px 0;
+			
+				
+			}
+			form li:nth-child(3)
+			{
+				margin: 15px 0 10px 0;
+				
+			}
+			form li:nth-child(4)
+			{
+				margin: 0 0 15px 0;
+				
+			}
+			form li:nth-child(5) input
+			{
+				background: #31C854;
+				
+			}
+			.tk
+			{width: 400px;
+				margin: 0 auto;
+				text-align: center;
+			/*	border: 1px solid saddlebrown;*/
+				font-size: 13px;
+			}
+			.cj
+			{
+				height: 55px;
+				width: 305px;
+				border:1px solid #D8DEE2;
+				margin: 20px auto;
+				border-radius:5px ;
+				text-align: center;
+				font-size: 14px;
+				line-height: 55px;	
+			}
+			.cj a
+			{
+				color: #0366DE;
+			}
+			.cj a:hover
+			{
+				text-decoration: underline;
+				
+			}
+			.tk a
+			{
+				margin: 0 3px 0 2px;
+			}
+			.tk a:nth-child(-n+4):nth-child(n+1)
+			{
+				color:#0366DE ;
+				
+			}
+			.tk a:nth-child(-n+5):nth-child(n+1):hover
+			{
+				text-decoration: underline;
+			}
+			.tk a:nth-child(5)
+			{
+				color: #333333;
+			}
+		   .tk a:nth-child(5):hover
+			{
+				color:#0366DE;
+			}
+			.wjmn{
+				color: #0366DE;
+				float: right;
+				
+			}
+			.wjmn:hover{
+				text-decoration: underline;
+				
+			}
+		</style>
+	</head>
+	<body ondragstart="return false">
+	    <div class="logo"><img src="../img/Eternal-pride.gif"/></div>
+	    <div class="wz">Sign in to EternalPride</div>
+	    <div class="dlk">
+	    	<form action="" method="post" >
+					<ul>
+						<li>用户名或邮箱地址</li>
+						<li>
+							<input type="text" id="text"   placeholder="请输入用户名"/>
+						</li>
+						<li>密码<a href="#" class="wjmn">忘记密码？</a></li>
+						<li>
+							<input type="password" id="" placeholder="请输入密码"/>
+							
+						</li>
+						<li >
+							<input type="submit" id="d" value="登陆"  />	
+						</li>
+						
+					</ul>
+				</form>
+</div>
+	    <div class="cj">EternalPride新手？ 创建一个<a href="#">帐户</a>。</div>
+	    <div class="tk">
+	    	<a href="../index.html">首页</a>
+	    	<a href="#">条款</a>
+	    	<a href="#">隐私</a>
+	        <a href="#">安全</a>
+	        <a href="#">联系EternalPride</a>
+	    </div>
+	    <script type="text/javascript">
+	    	var d=document.getElementById("d");
+	    	d.onclick=function()
+	    	{
+	    		alert("尚未开通此功能！！！")
+	    	}
+  
+ 
+  
+	    </script>
+	</body>
+</html>

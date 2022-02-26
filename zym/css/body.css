@@ -1,0 +1,226 @@
+#iy {
+       font-size: 30px;
+     
+       color: #10A3A3;
+       
+    }
+.h{
+	width: 100%;
+	height: auto;
+	/*border-bottom: 1px solid gainsboro;*/
+	padding-bottom: 15px;
+   /*margin: 0 0 120px 0;*/
+}
+
+.xd{
+	width: 100%;
+	height: auto;
+/*	border: 1px solid red;*/
+margin: 0px 0 70px 0;
+}
+.f{
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+	margin: 0 0 20px 0;
+}
+.icon-zhiyejineng{
+	/*width: 5em;
+	height: 5em;*/
+	font-size: 30px;
+	color:#85B7D9;
+}
+.icon-jiaoyu{
+	font-size: 30px;
+	color: #21B8FF;
+}
+.icon-gongzuojingli{
+	font-size: 30px;
+	color: #1A531B;
+}
+.icon-xiangmu{
+	font-size: 30px;
+	color: indigo;
+}
+.icon-zhengshu
+{
+	font-size: 30px;
+	color: #B5CC18;
+	
+}
+b{
+	margin: 0 10px 0 10px;
+  font-family: "新宋体";
+  color: #717579;
+  font-size: 20px;
+}
+@font-face {
+  font-family: 'MyNewFont';   /*字体名称*/
+  src: url('font.ttf');       /*字体源文件*/
+}
+o{
+	font-size: 18px;
+	letter-spacing: 8px;
+	margin: 10px 0 0 20px;
+}
+l{
+	letter-spacing: 4px;
+	font-size: 14px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+n{
+	letter-spacing: 4px;
+	font-size: 10px;
+	float: left;
+	margin:12px 0 0 0px;
+	
+}
+
+g img{
+	width: 60px;
+	height: auto;
+	float: left;
+}
+.gn{
+	width: 300px;
+	height: 70px;
+	/*border: 1px solid #00B5AD;*/
+	margin: 0 0 0 10px;
+	
+}
+.hh{
+	text-indent: 2em;
+	text-align:justify;
+	line-height: 35px;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+.xm img
+{
+	float: left;
+	
+	
+}
+.xm{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#z{
+	margin: 0 auto;
+}
+#zhi{
+	font-size: 20px;
+	color: #395C79;
+}
+
+/*.ii,.iii,.iv,.iiv
+{
+	width: 23%;
+	height: 330px;
+	float: left;
+	margin: 10px 1% 10px 1%;
+}*/
+.small img{
+         		/*width: 25%;
+         		height: 300px;*/
+         		
+         	}
+   .gy img
+   {
+   	width: 100%;
+   	height: 300px;
+   }
+   .gy{
+   	width: 50%;
+   	height: auto;
+   	float: left;
+   
+   	
+   }
+.rt{
+	width: 100%;
+	height:700px;
+}
+.rt a{
+	color: white;
+}
+
+@keyframes  uop{
+	from{bottom: 500px;
+	opacity: 0;}
+	to{bottom: 0px;
+	opacity: 100;}
+	
+}
+@keyframes  uopp{
+	from{top: 500px;
+	opacity: 0;}
+	to{top: 0px;
+	opacity: 100;}
+	
+}
+.gh h2{
+	position: relative;
+	animation-name: uop;
+	animation-timing-function: ease;
+	-webkit-animation-name: uop;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	
+}
+.gh button{
+	position: relative;
+	animation-name: uopp;
+	animation-timing-function: ease;
+	-webkit-animation-name: uopp;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	
+}
+.gh h3{
+	margin: -5px 0 5px 0;
+}
+.star
+{
+	
+}
+.pf h3{
+	
+}
+#jop
+{
+	margin: -30px 10px -10px 0;
+	font-size: '宋体';
+	
+	
+}
+#jop .massive
+{
+	margin: 10px 0px 0 0px;
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	font-weight: 100;
+
+	
+
+	
+}
+#g
+{
+
+}
+.wy{
+	margin-left: 40%;
+	/*border: 1px solid;*/
+	
+}
+.co{
+	color: gainsboro;
+}
+#g .header
+{
+/*border: 1px solid;*/
+}

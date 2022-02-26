@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				
+			}
+			#a{
+				width: 1016px;
+				height: 170px;
+				background: red;
+				margin: 10px auto;
+				/*overflow: hidden;*/
+				position: relative;
+			}
+			ul{position: absolute;}
+			li{
+				
+				width: 250px;
+				height: 170px;
+				float: left;
+				
+			}
+		img
+			{
+				width: 100%;
+				height: 100%;
+				
+				
+			}
+		input
+		{
+			width: 80px;
+			height: 30px;
+			background: rgba();
+		}
+
+		</style>
+	</head>
+	
+	<body>
+		 <input type="button" value="逆向" />
+		<div id="a">
+			<ul id="u">
+			<li><img class="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543544652&di=3d6d65f07dc563ab8c52341659b084d2&imgtype=jpg&er=1&src=http%3A%2F%2Fstatic.cwzg.cn%2Fp%2F201801%2F593d2b83e9d084947fee81acceb1ce4f.jpeg"/></li>
+			<li><img class="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542949931324&di=124400364f0b2ab74c78af6b1cd81903&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180119%2F5933f90295b3425aa9b0ddef13ec087b.jpeg"/></li>
+			<li><img class="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543544822&di=f903169405e796dec795cebde7193996&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.cyf98.cn%2Fupload%2Fimg%2FrtbdjIFKlIOw3hfPpivZJMivbZAVsOEf8ycsGH8KSgx9dILsUjwhAivSevueoiX7Yrv2fX3klM15Ul14xFVrU9p94nvE4P03H44EUxQlryXl78dGlpZl3zm8TkgB-w.jpg"/></li>
+			<li><img class="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542950101310&di=c69690200911b94d9c9836df4f5949f6&imgtype=0&src=http%3A%2F%2Fs7.sinaimg.cn%2Fmw690%2F005T2X1Czy7hFLSk0R076%26690"/></li>
+		</ul>
+		</div>	
+		
+		
+		<!--废弃代码-->
+			.gd1
+{
+/*display: none;*/
+position: absolute;	
+margin: -38px 0 0 0px;
+width: 300px;
+height: 400px;
+left: 260px;
+float: left;
+background: gold;
+opacity: 0;
+/*z-index:-100;*/
+}
+.ck1{
+	/*transition: all 3s;*/
+}
+
+.ck1:hover .gd1 
+{
+	transition: all 1s;
+	/*display: block;*/
+	/*left: 260px;*/
+	/*z-index:100;*/
+	opacity: 1;
+}
+.ck2 ul
+{
+display: none;
+position: absolute;	
+margin: -87px 0 0 0px;
+width: 300px;
+height: 400px;
+left: 0px;
+float: left;
+background: gold;
+transition: all 3s;
+
+}
+.ck-er .ck2:hover ul
+{   width: 280px;
+	float: left;
+	display: block;
+	/*margin-left: 260px;*/
+	
+	left: 260px;
+}
+<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=waS1pLOvoK2xs6ilpIGnrrmsoKit76KurA" style="text-decoration:none;"><input type="button" id="sd" value="点击向我发信！！！" /></a>
+	<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=waS1pLOvoK2xs6ilpIGnrrmsoKit76KurA" style="text-decoration:none;">给我写信</a></body>
+	<script type="text/javascript">
+		var oinput=document.getElementsByTagName("input")
+		var osrl=document.getElementById("a");
+		var ou=document.getElementById("u");
+		var oli=ou.getElementsByTagName("li");
+		var t1;
+		var speed=2;
+		ou.innerHTML+=ou.innerHTML;
+		ou.style.width=oli.length*oli[0].offsetWidth+"px";
+		
+		function move()
+		{
+			if(ou.offsetLeft<-ou.offsetWidth/2)
+			{
+				ou.style.left="0px";
+			}
+			if(ou.offsetLeft>0)
+			{
+				ou.style.left=-ou.offsetWidth/2+"px"
+			}
+			ou.style.left=ou.offsetLeft+speed+"px";
+		}
+	t1=setInterval(move,30)
+		oinput[0].onclick=function()
+		{
+			speed=speed;
+		}	
+	
+		ou.onmouseover =function()
+		{
+			clearInterval(t1);
+		}
+		ou.onmouseout =function()
+		{
+			t1=setInterval(move,30)
+		}
+		
+	</script>
+</html>

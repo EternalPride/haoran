@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bq{
+	width:100%;
+	height:90px;
+
+	
+	float:left;
+	margin-top:1px;}
+	.bqwz{
+		width:880px;
+		height:auto;
+		margin:1px auto;
+		border-top:#000 1px solid;
+		
+	
+	}
+.bqwz{
+	font-size:12px;
+	font-family:"微软雅黑";
+	
+	text-align:center;
+	padding-top:5px;
+	color:#CCC;
+	
+
+	}
+.q{
+	margin-bottom:3px;}
+.s:link{
+	color:#CCC;
+	
+	text-decoration:none;
+	}
+.s:visited{
+	color:#CCC;}
+.s:hover{
+	color:#ccc;
+	
+	background-position:0 -2px;
+	text-decoration:underline;
+	}
+.s:active{
+	color:#CCC;}
+
+
+
+
+
+
+
+
+
+
+.icon
+{
+	display:block;
+	width:25px;
+	height:25px;
+	background:url(../images/icon.PNG);
+	margin-right:20px;
+	}
+.xc1:hover
+{
+	background-position:0 -25px;
+	transition:backgrount-position .5s ease-in-out;
+	-moz-transition-property:background-position;
+	-moz-transition-delay:1s;
+	-moz-transition-timing-function:ease-in-out;
+	-webkit-transition-property:background-position;
+	-webkit-transition-delay:.1s;
+	-webkit-transition-timing-function:ease-in;
+	}
+.xc2:hover
+{
+	background-position:0 -25px;
+	transition:backgrount-position .5s ease-in-out;
+	-moz-transition-property:background-position;
+	-moz-transition-delay:1s;
+	-moz-transition-timing-function:ease-in-out;
+	-webkit-transition-property:background-position;
+	-webkit-transition-delay:.1s;
+	-webkit-transition-timing-function:ease-in;
+	}
+.xc3:hover
+{
+	background-position:0 -25px;
+	transition:backgrount-position .5s ease-in-out;
+	-moz-transition-property:background-position;
+	-moz-transition-delay:1s;
+	-moz-transition-timing-function:ease-in-out;
+	-webkit-transition-property:background-position;
+	-webkit-transition-delay:.1s;
+	-webkit-transition-timing-function:ease-in;
+	}
+.xc4:hover
+{
+	background-position:0 -25px;
+	transition:backgrount-position .5s ease-in-out;
+	-moz-transition-property:background-position;
+	-moz-transition-delay:1s;
+	-moz-transition-timing-function:ease-in-out;
+	-webkit-transition-property:background-position;
+	-webkit-transition-delay:.1s;
+	-webkit-transition-timing-function:ease-in;
+	}
+.xc2
+{
+	background-position:-25px 0;
+	}
+.xc3
+{
+	background-position:-175px 0;
+	}
+.xc4
+{
+	background-position:-150px 0;
+	}
+.xc1:hover
+{
+	background-position:0 -25px;
+	}
+.xc2:hover
+{
+	background-position:-25px -25px;
+	}
+.xc3:hover
+{
+	background-position:-175px -25px;
+	}
+.xc4:hover
+{
+	background-position:-150px -25px;
+	}
+
+
+
+   
+   
+   
+   
+.box li{ width:215px; height:190px; margin-right:1px;
+margin-bottom:3px; float:left; overflow:hidden; position:relative;}
+.toll_img{ width:215px; height:190px;
+border:#666 1px solid;}
+.toll_info{ height:190px; vertical-align:middle;display:table-cell;
+background-color:rgba(199,255,236,0.99)}
+.box li p{ padding:10px; font:normal 13px/24px '微软雅黑'; cursor:pointer;}
+.box li a{ color:#666; text-decoration:none; position:absolute; top:0; left:0;}
+.toll_info h3{
+	margin-top:3px;
+	margin-left:3px;}
+	
+	
+	
+	
+	
+	#sd{
+    position:absolute;
+	bottom:30px;
+	right:30px;
+	height:100px;
+    line-height: 500px;
+    text-align: center;
+    
+  
+}

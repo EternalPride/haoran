@@ -1,0 +1,114 @@
+*{
+	
+	padding: 0;
+	
+	
+}
+
+.leaf{
+	width: 20%;
+	height: 500px;
+	background: blanchedalmond;
+	margin:10px 1% 0 9%;
+	border-radius:10px;
+	float: left;
+	box-shadow:#2E3032 0px 0px 5px;
+}
+ 
+                  .column{
+                  	margin: 10px 0 0 10px ;
+                
+                  }
+                    
+                    
+
+                
+    .you{
+    	width:60%;
+    	height: auto;
+    	background: white;
+    	margin:10px 10% 0 31%;
+    	border-radius:10px;
+    	box-shadow:#2E3032 0px 0px 5px;
+    	padding: 0px 65px 0 65px;
+    	
+    }
+    
+   @page { margin: 0; }
+     .fluid{
+     	
+     	bottom: 0px;
+     	
+     }
+#i{
+	text-align: center;
+	margin: 20px auto;
+	
+}
+.jj{
+	text-align: center;
+	letter-spacing: 5px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 860539 */
+  src: url('//at.alicdn.com/t/font_860539_yhabe1wwrfi.eot');
+  src: url('//at.alicdn.com/t/font_860539_yhabe1wwrfi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_860539_yhabe1wwrfi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_860539_yhabe1wwrfi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_860539_yhabe1wwrfi.svg#iconfont') format('svg');
+}
+#u{
+	font-size:18px;
+}
+#ico{
+	margin: 0 auto;
+	text-align: left;
+}
+.fg{
+	letter-spacing: 25px;
+	/*margin:10px  7%;*/
+	text-align: center;
+	margin-bottom: 50px;
+	
+	
+}
+
+.center img{
+	width: 250px;
+	height: auto;
+}
+.center h1{
+	font-family: "宋体";
+	letter-spacing: 5px;
+}
+.center img{
+	position: relative;
+	animation-name: my;
+	animation-timing-function: ease;
+	-webkit-animation-name: my;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+}
+@keyframes  my{
+	from{bottom: 800px;
+	opacity: 0;}
+	to{bottom: 0px;
+	opacity: 100;}
+h1{
+	position: relative;
+	animation-name: my1;
+	animation-timing-function: ease;
+	-webkit-animation-name: my1;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+}
+@keyframes  my1{
+	from{top: 800px;
+	opacity: 0;}
+	to{top: 0px;
+	opacity: 100;}
+.you img{
+	width: 30px;
+
+}
+

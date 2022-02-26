@@ -1,0 +1,18 @@
+  
+
+	nav li{
+	float: left;
+	width: 80px;
+height: 40px;
+	border: 1px solid skyblue;
+	margin: 0 5px  0 0 ;
+
+}
+nav ul
+{
+	width: 530px;
+	height: 40px;
+	box-shadow: 1px 1px 5px slategray inset; 
+	margin: 15px  ;
+	float: right;
+}
